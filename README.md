@@ -22,6 +22,14 @@ used directly with the `argostranslate` library for Python, though I had to
 write my own script to translate HTML files because the one provided didn't
 give me the flexibility I wanted.
 
+There are some advantages to using this API: there's no restrictions to how many
+characters you can translate at a time, or how many requests you can make in a
+day. And since the library can utilize hardware acceleration using Nvidia's
+CUDA cores, the performance isn't bad at all: translating all 288 HTML files
+on my laptop took 3h40m, around 45 seconds per file. And I believe that number
+could be brought down even more if my script implemented some sort of
+multi-processing.
+
 If in the future the Google Translate API was absolutely necessary, I am
 confident that the `HTMLTranslator` class could be modified with no alterations
 to its public API.

@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+00:53:46	495863/495863	---MCZ	404	error ('Not%20Found')	text/html	date:Fri,%2017%20Feb%202023%2003:53:46%20GMT	https://www.classcentral.com/*	original/www.classcentral.com/_.0.delayed	(from )
+00:53:46	2206/2206	------	403	error ('Forbidden')	text/html	date:Fri,%2017%20Feb%202023%2003:48:22%20GMT	https://www.classcentral.com/robots.txt		(from )

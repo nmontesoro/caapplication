@@ -1,73 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome!</title>
-    <style>
-      body {
-        font-family: sans-serif;
-        font-size: medium;
-        background-color: #eaf6ff;
-        min-width: 400px;
-        max-width: 50vw;
-        margin: auto;
-      }
-
-      div {
-        display: block;
-        background-color: #232528;
-        text-align: center;
-        color: white;
-        font-size: large;
-        padding: 10px;
-        margin: 20px 50px 20px 50px;
-      }
-
-      span {
-        display: inline-block;
-        vertical-align: middle;
-      }
-    </style>
+    <link rel="stylesheet" href="css/stylesheet.css" />
   </head>
   <body>
-    <h1>This is Nazareno Montesoro's application for Coding Allstars</h1>
-    <p>
-      I created this page to be able to use Github's Pages feature, when I
-      realized that my index.html file had to be at the top level in my repo.
-    </p>
-    <p>
-      You can access the translated website, the Github repo, my personal Github
-      page and my resume by visiting the links below. Inside the repo you will
-      find the code I wrote to translate all the files, along with the
-      corresponding documentation.
-    </p>
-    <a href="translated/www.classcentral.com/index.html">
-      <div>
-        <span>Translated Classcentral website (*)</span>
+    <main>
+      <div id="landing">
+        <div id="landing-text">
+          <div id="landing-text-inner">
+            <h1>Coding Allstars Application</h1>
+            <h2>Nazareno Montesoro</h2>
+            <p>
+              I created this page to be able to use Github's Pages feature, when
+              I realized that my index.html file had to be at the top level in
+              my repo.
+            </p>
+            <p>
+              You can access the translated website, the Github repo, my
+              personal Github page and my resume by visiting the links below.
+              Inside the repo you will find the code I wrote to translate all
+              the files, along with the corresponding documentation.
+            </p>
+            <a href="translated/www.classcentral.com/index.html" class="btn"
+              >Translated Classcentral website (*)
+            </a>
+            <a href="https://github.com/nmontesoro/caapplication" class="btn">
+              Github repo
+            </a>
+            <a href="https://github.com/nmontesoro" class="btn">
+              Github @nmontesoro
+            </a>
+            <a
+              href="https://github.com/nmontesoro/curriculum-vitae/releases/download/v1.1/english.pdf"
+              class="btn"
+            >
+              My resume
+            </a>
+            <p>
+              <i>
+                (*) To preserve bandwidth, I refrained from scraping all visual
+                media on the website, hence the blurry images in the resulting
+                documents. This is a design choice which can be corrected when
+                calling HTTrack.
+              </i>
+            </p>
+          </div>
+        </div>
       </div>
-    </a>
-    <a href="https://github.com/nmontesoro/caapplication">
-      <div>
-        <span>Github repo</span>
-      </div>
-    </a>
-    <a href="https://github.com/nmontesoro">
-      <div>
-        <span>Github @nmontesoro</span>
-      </div>
-    </a>
-    <a
-      href="https://github.com/nmontesoro/curriculum-vitae/releases/download/v1.1/english.pdf"
-    >
-      <div>
-        <span>My resume</span>
-      </div>
-    </a>
-    <p>
-      <i>
-        (*) To preserve bandwidth, I refrained from scraping all visual media on
-        the website, hence the blurry images in the resulting documents. This is
-        a design choice which can be corrected when calling HTTrack.
-      </i>
-    </p>
+    </main>
   </body>
 </html>

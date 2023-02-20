@@ -65,4 +65,5 @@ around. This should not affect the performance or look of the websites, but
 is something to bear in mind.
 
 Also, because PyTorch, a dependency of `argostranslate`,
-[doesn't support Python 3.11 yet](https://github.com/pytorch/pytorch/issues/86566), these scripts have to be run with Python 3.9.
+[doesn't support Python 3.11 yet](https://github.com/pytorch/pytorch/issues/86566),
+these scripts have to be run with Python 3.9.

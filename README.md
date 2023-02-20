@@ -1,6 +1,24 @@
 # My application for Coding Allstars
 
-## What does it do?
+## What was the trial task?
+
+TD;DR: Copy ClassCentral pages and translate them into Hindi.
+
+The trial task consisted of scraping
+[ClassCentral](https://www.classcentral.com/) one level deep using `httrack`, a
+custom script or another app, then translating the text inside the HTML to
+Hindi, which would be hardcoded into the page.
+
+Once all files were translated, they would be uploaded to a webserver. Special
+care had to be taken to ensure all the Javascript, CSS, etc. was loading
+correctly.
+
+Having completed all of that, I had to fill in a form sending them a URL to the
+live website (in this case, I used
+[Github Pages](https://nmontesoro.github.io/caapplication/)) and letting them
+know how I scraped the pages.
+
+## What does the code do?
 
 All the steps performed are in `run.sh`. Basically, we first scrape the website
 using `httrack`, then we create a copy of the files in a different directory and
